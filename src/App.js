@@ -19,9 +19,8 @@ function App() {
     <div className="App">
       <Container fluid>
         <Row className="no-gutters">
-          <Col md={2} lg={2} className="p-0" style={{ background: "#000000" }}>
-            <Header />
-          </Col>
+          <Header />
+
           <Col md={10} lg={10} className="p-0">
             {/* Main Content */}
             {/* className="header-container" */}

@@ -51,3 +51,7 @@ a {
 .text-white {
   color: white !important;
 }
+.active {
+  color: #00b4d9 !important;
+  text-decoration: underline !important;
+}

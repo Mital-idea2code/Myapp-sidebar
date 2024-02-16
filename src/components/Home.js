@@ -31,7 +31,9 @@ function Home() {
             </a>
           </div>
           <div className="mt-40 text-center">
-            <Button className="theme-btn">Hire Me</Button>
+            <a href="#contact" className="text-white">
+              <Button className="theme-btn">Hire Me</Button>
+            </a>
           </div>
         </div>
       </div>

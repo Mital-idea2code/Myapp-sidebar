@@ -13,10 +13,10 @@
 
 .theme-btn,
 .theme-btn:hover {
-  background: #00b4d9;
-  border-color: #00b4d9;
+  background: #00b4d9 !important;
+  border-color: #00b4d9 !important;
   text-transform: uppercase;
-  padding: 10px 40px;
+  padding: 10px 40px !important;
 }
 .full-screen-image {
   position: relative;

@@ -12,7 +12,7 @@ const Contact = () => {
           <span className="borderEffect">Contact Me</span>
         </h2>
         <Row>
-          <Col md={8} className="mx-auto">
+          <Col md={9} className="mx-auto">
             <Card className="contact-card">
               <Card.Body>
                 <Row>

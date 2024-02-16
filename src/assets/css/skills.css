@@ -23,3 +23,8 @@
 .skills {
   background: #80808026;
 }
+@media (max-width: 991px) {
+  .CircularProgressbar {
+    width: 50% !important;
+  }
+}
