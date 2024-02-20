@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -13,8 +14,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/header.css";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="App">
       <Container fluid>

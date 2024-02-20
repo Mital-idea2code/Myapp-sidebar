@@ -45,12 +45,12 @@ const SkillItem = ({ label, value, color }) => (
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-5 skills animated">
+    <section id="skills" className="py-5 skills animated" data-aos="fade-right">
       <Container>
         <h2 className="text-center mb-50 textContainer">
           <span className="borderEffect">Professional Skills</span>
         </h2>
-        <Row>
+        <Row data-aos="fade-right">
           {skillsData.map((skill, index) => (
             <SkillItem key={index} {...skill} />
           ))}

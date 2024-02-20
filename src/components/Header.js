@@ -9,12 +9,17 @@ function Header() {
         expand="lg"
         className="bg-body-tertiary d-flex flex-column align-items-center sticky-top min-vh-100 big-screen-navber"
       >
-        <div className="d-flex flex-column align-items-center nav-image"></div>
-        <p className="nav-headTitle mt-4 mb-0">JANNY STANBRIDGE</p>
-        <p className="nav-headSubTitle text-white"> janny@company.com</p>
+        <div className="d-flex flex-column align-items-center nav-image" data-aos="flip-left"></div>
+        <p className="nav-headTitle mt-4 mb-0" data-aos="fade-up">
+          JANNY STANBRIDGE
+        </p>
+        <p className="nav-headSubTitle text-white" data-aos="fade-up">
+          {" "}
+          janny@company.com
+        </p>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" data-aos="fade-up">
           <Nav className="flex-column">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about-me">About</Nav.Link>
